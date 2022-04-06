@@ -25,7 +25,7 @@
     "e2e:record:chrome": "cypress run --record --browser chrome",
     "e2e:record:edge": "cypress run --record --browser edge",
     "e2e:record:firefox": "cypress run --record --browser firefox",
-    "e2e:record:parallel": "cypress run --record --parallel",
+    "e2e:record:parallel": "cypress run --parallel",
     "test:ci": "run-p --race start:ci e2e",
     "test:ci:windows": "run-p --race start:ci:windows e2e",
     "test:ci:chrome": "run-p --race start:ci e2e:chrome",
